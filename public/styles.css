@@ -93,7 +93,7 @@ p{
     /* border:1px solid red; */
 }
 input {
-    position: fixed;
+    position: absolute;
     bottom:0;
     padding: 0.8rem;
     width: 100%;
@@ -112,7 +112,7 @@ button{
     cursor: pointer;
 }
 input:focus{
-    position: absolute;
+   
     bottom: 0;
     outline: none;
 }
