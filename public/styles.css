@@ -93,7 +93,7 @@ p{
     /* border:1px solid red; */
 }
 input {
-    position: absolute;
+    position: fixed;
     bottom:0;
     padding: 0.8rem;
     width: 100%;
@@ -119,6 +119,6 @@ input:focus{
 
 @media only screen and (max-width: 428px){
     .screen{
-        /* height:95%; */
+        height:95%;
     }
 } 
